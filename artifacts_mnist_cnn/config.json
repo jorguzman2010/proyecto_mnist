@@ -1,0 +1,15 @@
+{
+    "model_name": "mnist_cnn",
+    "artifacts_dir": "artifacts_mnist_cnn",
+    "random_state": 42,
+    "validation_size": 0.1,
+    "image_height": 28,
+    "image_width": 28,
+    "channels": 1,
+    "num_classes": 10,
+    "learning_rate": 0.001,
+    "batch_size": 128,
+    "epochs": 10,
+    "patience": 3,
+    "monitor_metric": "val_loss"
+}
